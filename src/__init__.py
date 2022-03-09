@@ -20,7 +20,7 @@ def create_app(test_config=None):
 
     #Setting up the mongoengine connection details.
     app.config['MONGODB_SETTINGS'] = {
-        'host': "mongodb+srv://elartey:cu28zTRi798DDNCA@flask.nlulc.mongodb.net/bookmark_api",
+        'host': "",
         'connect': False
     }
     db = MongoEngine()
